@@ -1,0 +1,12 @@
+import "EmotionalMotor.idsl";
+
+Component Face_test
+{
+    Communications
+    {
+        requires EmotionalMotor;
+    };
+    language python;
+    gui Qt(QWidget);
+};
+

@@ -1,0 +1,18 @@
+# Proxies for required interfaces
+Proxies.EmotionalMotor = "emotionalmotor:tcp -h localhost -p 10945"
+Proxies.Recorder = "recorder:tcp -h localhost -p 17218"
+
+# Endpoints for implements interfaces
+Endpoints.Speech = "tcp -p 11339"
+
+
+
+Period.Compute = 2000
+Period.Emergency = 500
+
+Component.Debug.Verbose = true
+
+Ice.Warn.Connections = "0"
+Ice.Trace.Network = "0"
+Ice.Trace.Protocol = "0"
+Ice.MessageSizeMax = "20004800"
